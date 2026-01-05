@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">
         <link rel="stylesheet" href="css/prism.css">
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 
@@ -99,7 +99,7 @@
 
         <script>
             window.onAmazonLoginReady = function() {
-                amazon.Login.setClientId('ENTER_YOUR_CLIENT_ID');
+                amazon.Login.setClientId('amzn1.application-oa2-client.9f8c1453b8214b579597159358aa51ac');
             };
 
             document.getElementById("consent_token").value = decodeURI(window.location.search.match(new RegExp('(?:[\?\&]access_token=)([^&]+)'))[1]);

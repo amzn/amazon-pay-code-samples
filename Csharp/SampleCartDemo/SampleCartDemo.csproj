@@ -74,9 +74,8 @@
     <Content Include="RecurringPayments\ConfirmAndAuthorize.aspx" />
     <Content Include="RecurringPayments\index.aspx" />
     <Content Include="RecurringPayments\SetPaymentDetails.aspx" />
-    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.7.1.js" />
-    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
     <Content Include="OneTimePayments\index.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
